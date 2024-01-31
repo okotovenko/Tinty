@@ -431,8 +431,6 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
-  position: relative;
-  z-index: 5;
 }
 
 .footer__logo img {
@@ -813,6 +811,7 @@ body {
 
 .help__text p {
   opacity: 0;
+  font-size: 18px;
 }
 
 .help__text p.animation {
@@ -866,6 +865,10 @@ body {
   width: 8px;
   height: 2px;
   background: rgb(238, 240, 244);
+}
+
+.pages--contacts {
+  padding-top: 70px;
 }
 
 @media (min-width: 92.5em) {
@@ -1263,6 +1266,10 @@ body {
 
   .pages {
     padding-bottom: 2.5rem;
+  }
+
+  .pages--contacts {
+    padding-top: 120px;
   }
 }
 
