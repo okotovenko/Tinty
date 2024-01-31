@@ -478,6 +478,7 @@ body {
 
 .menu--footer__link {
   opacity: 0.6;
+  white-space: nowrap;
 }
 
 ._icon-x::before,
@@ -671,6 +672,10 @@ body {
 .download__container-small h2.animation {
   -webkit-animation: top 0.2s 0.2s linear both;
           animation: top 0.2s 0.2s linear both;
+}
+
+.download__text {
+  text-align: center;
 }
 
 .download__text p {
@@ -1260,6 +1265,12 @@ body {
 }
 
 @media (max-width: 47.99875em) {
+  .menu--footer__list {
+    -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+  }
+
   .download__app {
     width: 240px;
   }
@@ -1270,6 +1281,16 @@ body {
 
   .pages--contacts {
     padding-top: 120px;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .download__img--left {
+    display: none;
+  }
+
+  .download__img--right {
+    display: none;
   }
 }
 
